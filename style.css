@@ -38,7 +38,18 @@ body {
     font-size: 1.1em;
     padding-left: 25px;
     padding-right: 25px;
+    cursor: pointer;
+    
 }
+
+#titre_principal a:hover
+{
+    padding-top: 22px;
+    border-top: 3px solid;
+    border-color: #0065fc;
+    color: #0065fc;
+}
+
 
 #link_color
 {
