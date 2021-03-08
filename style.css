@@ -101,13 +101,19 @@ a{
     display: flex;
     flex-wrap: wrap;
     padding-top: 20px ;
-    
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .filter
 {
 margin-left: 2em;
 font-weight: 700;
 margin-bottom: auto;
+}
+
+.filter:hover
+{
+    background-color:#f1f7ff;
 }
 
 
@@ -311,6 +317,7 @@ padding-bottom: 4px;
 .activities
 {
     display: block;
+    margin-top: 4rem;
 }
 
 .activity_card
