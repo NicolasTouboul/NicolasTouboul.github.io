@@ -124,7 +124,12 @@ h2{
 
 .results
 {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.text_results
+{
+    font-size: 1.1em;
 }
 
 .host
@@ -360,7 +365,7 @@ padding-bottom: 4px;
 .activities_positions {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     /* margin-left: -10px;
     margin-right: -10px; */
 }
@@ -385,7 +390,7 @@ footer ul
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 100px;
+    padding-left: 3%;
     padding-right: 500px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -401,13 +406,14 @@ footer ul
 
     #titre_principal nav
     {
-    border-bottom: rgb(212, 212, 212) 3px solid;
+    border-bottom: rgb(238, 238, 238) 3px solid;
     
     }
 
     #titre_principal a:hover
     {
     padding-bottom: 16px;
+    border-top: white;
     border-bottom: 3px solid;
     border-color: #0065fc;
     color: #0065fc;
@@ -415,9 +421,9 @@ footer ul
 
 
 
-    #link_color
+    #inscription
     {
-        order: 1;
+        order: -1;
     }
 
     .filters i 
@@ -446,7 +452,7 @@ footer ul
         background-color: #ffffff;
     }
     .host_pop {
-        order: 1;
+        order: -1;
         /* width: 50%; */
         margin-left: -3%;
         margin-right: -3%;
@@ -479,7 +485,7 @@ footer ul
 
 .activity_card {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .footer_elements
