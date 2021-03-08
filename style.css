@@ -44,7 +44,7 @@ body {
 
 #titre_principal a:hover
 {
-    padding-top: 22px;
+    padding-top: 24px;
     border-top: 3px solid;
     border-color: #0065fc;
     color: #0065fc;
@@ -128,7 +128,7 @@ h2{
 {
     background-color: #F2F2F2;
     padding-top: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .host_header_title_marseille
@@ -152,7 +152,7 @@ h2{
     width: 100%;
     height: 140px;
     object-fit: cover;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .popular_card
@@ -160,7 +160,7 @@ h2{
     width: 50%;
     height: 150px;
     object-fit: cover;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 20px 0px 0px 20px;
 }
 
 .container_host{
@@ -183,7 +183,7 @@ figure
     padding: 4px;
     margin: 12px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 2px 1px 5px 2px rgb(209 209 209);
     display: block;
 }
@@ -214,7 +214,7 @@ line-height: 8px;
         display: flex;
         flex-direction: row;
         background-color: white;
-        border-radius: 10px 10px 10px 10px;
+        border-radius: 20px;
         box-shadow: 2px 1px 5px 2px rgb(209 209 209);
     
 }
