@@ -394,6 +394,22 @@ footer ul
 
 @media all and (max-device-width: 480px)
 {
+    .filters i 
+    {
+        margin-right: 8px
+    }
+    .filter_title
+    {
+        margin-right: 8px;
+    }
+
+    .filter
+    {
+        padding-right: 0%;
+    }
+
+
+
     .host {
         display: flex;
         flex-direction: column;
@@ -403,25 +419,53 @@ footer ul
     {
         background-color: #ffffff;
     }
+    .host_pop {
+        order: 1;
+        /* width: 50%; */
+        margin-left: -3%;
+        margin-right: -3%;
+        border-radius: 0px;
+    }
 
     figure {
-        width: 100%;
-
+        width: 95%;
         background-color: white;
         border-radius: 20px;
         box-shadow: 4px 1px 10px 1px rgb(235 235 235);
         display: block;
     }
 
-    
 
-    .large_img
+    .figure_popular_card {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+
+.large_img
 {
     width: 100%;
     height: 140px;
     object-fit: cover;
     border-radius: 10px 10px 0px 0px;
 }
+
+
+.activity_card {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.footer_elements
+{
+    flex-direction: column;
+    padding-inline-start: 3%;
+    padding-right: 0%;
+}
+
+
+
+
 }
 
 
