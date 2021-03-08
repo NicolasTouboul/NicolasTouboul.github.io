@@ -155,11 +155,19 @@ h2{
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
+.pop_card_size
+{
+    position: relative;
+    min-height: 100%;
+    width: 33%;
+    min-width: 33%;
+    max-width: 33%;
+}
 
 .popular_card
 {
-    width: 50%;
-    height: 110px;
+    width: 35%;
+    height: 140px;
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
 }
@@ -185,7 +193,7 @@ figure
     margin: 12px;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 2px 1px 5px 2px rgb(209 209 209);
+    box-shadow: 4px 1px 10px 1px rgb(235 235 235);
     display: block;
 }
 
