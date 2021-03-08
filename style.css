@@ -209,9 +209,13 @@ figcaption {
     width: 100%;
 }
 
-figcaption i
+figcaption i[data-active=true]
 {
     color: #0065fc;
+}
+figcaption i[data-active=false]
+{
+    color: #e7e7e7;
 }
 
 .hosting_card_figcaption
@@ -372,6 +376,7 @@ footer {
 footer ul
 {
     list-style-type: none;
+    padding-inline-start: 0%;
 }
 
 .footer_elements{
