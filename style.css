@@ -17,7 +17,7 @@ body {
 
 #titre_principal ul
 {
-    list-style-type: none;
+    
     display: flex;
     justify-content: flex-end;   
 }
@@ -32,6 +32,7 @@ body {
 
 #titre_principal li
 {
+    list-style-type: none;
     word-spacing: 2em;
     color: black;
     opacity: 0.6;
@@ -42,7 +43,7 @@ body {
     
 }
 
-#titre_principal a:hover
+#titre_principal ul a:hover
 {
     padding-top: 24px;
     border-top: 3px solid;
@@ -53,7 +54,7 @@ body {
 
 #link_color
 {
-    color:#0065fc
+    color:#0065fc;
 }
 
 a{
@@ -211,8 +212,9 @@ figure
 
 figcaption {
     display: block;
-    margin-left: 24px;
+    padding-left: 24px;
     width: 100%;
+    box-sizing: border-box;
 }
 
 figcaption i[data-active=true]
@@ -391,7 +393,7 @@ footer ul
     flex-direction: row;
     justify-content: space-between;
     padding-left: 3%;
-    padding-right: 500px;
+    padding-right: 25%;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -410,7 +412,7 @@ footer ul
     
     }
 
-    #titre_principal a:hover
+    #titre_principal ul a:hover
     {
     padding-bottom: 16px;
     border-top: white;
@@ -503,7 +505,32 @@ footer ul
 
 @media all and (max-device-width: 780px)
 {
+    #hebergement
+    {
+        display: block;
+    }
 
     
+    .popular_card {
+        width: 52%;
+        
+    }
+    .figure_popular_card {
+        width: 100%;
+    }
 
+    .figure_double
+    {
+        justify-content: space-around;
+    }
+
+    .activity_card
+    {
+        margin-bottom: 10px;
+    }
+
+    .footer_elements
+    {
+        padding-right: 5%;
+    }
 }
