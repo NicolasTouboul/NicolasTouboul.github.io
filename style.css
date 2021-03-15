@@ -80,6 +80,9 @@ body {
 #link_color
 {
     color:#0065fc;
+    font-weight: bold;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 a{
@@ -430,6 +433,12 @@ footer ul
         order:-1;
     }
 
+    #link_color
+    {
+        order: -1;
+        margin-right: 10px;
+    }
+
     #titre_principal
     {
         flex-wrap: wrap;
@@ -442,11 +451,11 @@ footer ul
 
     #titre_principal ul 
     {
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding-inline-start: 0px
     }
 
-    #titre_principal ul a:hover
+    #titre_principal nav a:hover
     {
     padding-bottom: 16px;
     border-top: white;
@@ -457,10 +466,7 @@ footer ul
 
 
 
-    #inscription
-    {
-        order: -1;
-    }
+    
 
     .filters i 
     {
@@ -491,7 +497,7 @@ footer ul
 
     .hosting_card_img
     {
-    height: 180px;
+    height: 160px;
     }
 
     .popular_card
