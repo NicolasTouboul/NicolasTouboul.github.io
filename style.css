@@ -5,9 +5,31 @@ body {
         font-family: "Raleway", Arial, Helvetica, sans-serif;
         margin: 0;
         padding: 0;
+        /* margin-left: 3%;
+        margin-right: 3%; */
+        font-size: medium;
+    }
+
+
+    header
+    {
         margin-left: 3%;
         margin-right: 3%;
-        font-size: medium;
+    }
+    .search{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .host
+    {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .activity
+    {
+        margin-left: 3%;
+        margin-right: 3%;
     }
 
 #logo
@@ -156,7 +178,7 @@ h2{
 {
     margin-left: 30px;
     margin-right: 21px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     display: flex;
     justify-content: space-between;
 }
@@ -179,7 +201,7 @@ h2{
 
 .popular_card
 {
-    width: 35%;
+    width: 31%;
     height: 140px;
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
@@ -235,7 +257,7 @@ padding-bottom: 4px;
 
 .figure_popular_card
 {       
-        width: 300px;
+        width: 100%;
         /* height: 30%; */
         margin-left: 30px;
         padding: 6px;
@@ -260,7 +282,7 @@ padding-bottom: 4px;
 {
     order: 1;
     /* width: 50%; */
-    border-radius: 10px;
+    border-radius: 20px;
     margin-left: 2%;
 }
 
@@ -377,8 +399,6 @@ footer {
     margin-top: 25px;
     display: flex;
     flex-direction: column;
-    margin-left: -3%;
-    margin-right: -3%;
 }
 
 footer ul
@@ -442,23 +462,34 @@ footer ul
         padding-right: 0%;
     }
 
-
-
     .host {
         display: flex;
         flex-direction: column;
+        margin-left: 0%;
+        margin-right: 0%;
     }
     
     .host_marseille  
     {
         background-color: #ffffff;
+        padding-right: 3%;
     }
+
+    .hosting_card_img
+    {
+    height: 180px;
+    }
+
+    .popular_card
+    {
+        width: 31%;
+        height: 140px;
+    }
+
     .host_pop {
         order: -1;
-        /* width: 50%; */
-        margin-left: -3%;
-        margin-right: -3%;
         border-radius: 0px;
+        margin-left: 0%;
     }
 
     figure {
@@ -475,6 +506,10 @@ footer ul
         margin-left: 0px;
     }
 
+    .activities
+    {
+        padding-right: 3%;
+    }
 
 .large_img
 {
@@ -503,13 +538,19 @@ footer ul
 }
 
 
-@media all and (max-device-width: 780px)
+@media all and (max-device-width: 780px) and (min-device-width: 600px)
 {
     #hebergement
     {
         display: block;
     }
 
+    .host_pop
+    {
+        order: 1;
+    }
+
+    
     
     .popular_card {
         width: 52%;
