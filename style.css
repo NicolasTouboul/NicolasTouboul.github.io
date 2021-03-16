@@ -465,7 +465,15 @@ footer ul
     }
 
 
+    .rechercher
+    {
+        width: 35%;
+    }
 
+    .search_button
+    {
+        width: 40%;
+    }
     
 
     .filters i 
