@@ -425,7 +425,7 @@ footer ul
 }
 
 
-@media all and (max-device-width: 480px)
+@media all and (max-width: 480px)
 {
 
     #logo
@@ -557,7 +557,7 @@ footer ul
 }
 
 
-@media all and (max-device-width: 780px) and (min-device-width: 600px)
+@media all and (max-width: 780px) and (min-width: 600px)
 {
     #hebergement
     {
